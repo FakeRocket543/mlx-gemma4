@@ -56,18 +56,25 @@ All 12 variants tested on: 10 images (caption), 5 speech samples (transcription)
 
 ### Audio Test Sources
 
-| File | Source | Type |
+All audio samples are real human recordings — no synthetic/TTS audio.
+
+| File | Source | Content |
 |---|---|---|
-| obama_30s.wav | [HF hf-internal-testing](https://huggingface.co/datasets/hf-internal-testing/dummy-audio-samples) | Real human speech (Obama farewell address) |
-| rickroll_30s.wav | YouTube (Rick Astley - Never Gonna Give You Up) | Real music + vocals |
-| en_greeting.wav | macOS TTS (`say` command) | Synthetic English |
-| en_numbers.wav | macOS TTS (`say` command) | Synthetic English |
-| zh_greeting.wav | macOS TTS (`say -v Meijia`) | Synthetic Mandarin |
-| ja_greeting.wav | macOS TTS (`say -v Kyoko`) | Synthetic Japanese |
+| obama_30s.wav | [HF hf-internal-testing](https://huggingface.co/datasets/hf-internal-testing/dummy-audio-samples) | Obama farewell address (English) |
+| en_jobs.wav | YouTube | Steve Jobs Stanford commencement speech (English) |
+| zh_ted.wav | YouTube | Chinese TED talk (Mandarin) |
+| ja_speech.wav | YouTube | Japanese speech (Japanese) |
+| rickroll_30s.wav | YouTube | Rick Astley - Never Gonna Give You Up (music) |
 
-> **Note on TTS samples:** The ZH/JA speech tests use macOS synthesized audio, not real human recordings. We include them to verify the audio encoder processes non-English input correctly after quantization. The key comparison is that **quantized models produce identical transcriptions to bf16**, confirming zero quality loss in the audio pathway.
+Audio tests use **question-answering**, not ASR transcription. Gemma 4's audio encoder is designed for understanding speech content, not precise transcription.
 
-> **Note on music:** Gemma 4's audio encoder is trained on speech only. Music recognition (tested with 10 songs including Rick Astley, Queen, Adele) scores 0/10 on **all variants including bf16**. This is a model limitation, not a quantization issue.
+Example test questions:
+- "How many people are speaking? What language? What is the topic?"
+- "Is this speech or music? Describe what you hear."
+
+All variants (4-bit, 8-bit, bf16) produce consistent answers: correctly identifying speaker count, language, topic, and speech vs. music.
+
+> **Note on music:** Gemma 4's audio encoder is trained on speech only. Song/artist identification scores 0/10 on **all variants including bf16**. This is a model limitation, not a quantization issue.
 
 ## Usage
 
