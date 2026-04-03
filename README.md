@@ -2,7 +2,7 @@
 
 > Tested on Apple M4 Max 128GB, 2026-04-03
 > Framework: mlx-vlm (+ 4 bug fixes)
-> Source: https://github.com/anthropic-felix/mlx-gemma4
+> Source: https://github.com/FakeRocket543/mlx-gemma4
 
 Working MLX quantized weights for the full Google Gemma 4 family on Apple Silicon.
 
@@ -47,14 +47,14 @@ Only quantize the large `nn.Linear` and `SwitchLinear` (MoE expert) layers in th
 
 ## Available Models
 
-Download from 🤗 HuggingFace:
+Download from 🤗 HuggingFace: [FakeRockert543](https://huggingface.co/FakeRockert543)
 
 | Model | 4-bit | 8-bit | bf16 | Audio |
 |---|---|---|---|---|
-| **E2B** (2.3B params) | [7.6 GB](https://huggingface.co/FakeRockert543/gemma4-e2b-mlx-4bit) | [8.5 GB](https://huggingface.co/FakeRockert543/gemma4-e2b-mlx-8bit) | [10.2 GB](https://huggingface.co/FakeRockert543/gemma4-e2b-mlx-bf16) | ✅ |
-| **E4B** (4.5B params) | [10.3 GB](https://huggingface.co/FakeRockert543/gemma4-e4b-mlx-4bit) | [12.3 GB](https://huggingface.co/FakeRockert543/gemma4-e4b-mlx-8bit) | [16.0 GB](https://huggingface.co/FakeRockert543/gemma4-e4b-mlx-bf16) | ✅ |
-| **26B-A4B** (26B MoE) | [16.4 GB](https://huggingface.co/FakeRockert543/gemma4-26b-a4b-mlx-4bit) | [28.6 GB](https://huggingface.co/FakeRockert543/gemma4-26b-a4b-mlx-8bit) | [51.6 GB](https://huggingface.co/FakeRockert543/gemma4-26b-a4b-mlx-bf16) | — |
-| **31B** (31B dense) | [20.4 GB](https://huggingface.co/FakeRockert543/gemma4-31b-mlx-4bit) | [35.1 GB](https://huggingface.co/FakeRockert543/gemma4-31b-mlx-8bit) | [62.5 GB](https://huggingface.co/FakeRockert543/gemma4-31b-mlx-bf16) | — |
+| **E2B** (2.3B params) | [7.6 GB](https://huggingface.co/FakeRockert543/gemma-4-e2b-it-MLX-4bit) | [8.5 GB](https://huggingface.co/FakeRockert543/gemma-4-e2b-it-MLX-8bit) | [10.2 GB](https://huggingface.co/FakeRockert543/gemma-4-e2b-it-MLX-bf16) | ✅ |
+| **E4B** (4.5B params) | [10.3 GB](https://huggingface.co/FakeRockert543/gemma-4-e4b-it-MLX-4bit) | [12.3 GB](https://huggingface.co/FakeRockert543/gemma-4-e4b-it-MLX-8bit) | [16.0 GB](https://huggingface.co/FakeRockert543/gemma-4-e4b-it-MLX-bf16) | ✅ |
+| **26B-A4B** (26B MoE) | [16.4 GB](https://huggingface.co/FakeRockert543/gemma-4-26b-a4b-it-MLX-4bit) | [28.6 GB](https://huggingface.co/FakeRockert543/gemma-4-26b-a4b-it-MLX-8bit) | [51.6 GB](https://huggingface.co/FakeRockert543/gemma-4-26b-a4b-it-MLX-bf16) | — |
+| **31B** (31B dense) | [20.4 GB](https://huggingface.co/FakeRockert543/gemma-4-31b-it-MLX-4bit) | [35.1 GB](https://huggingface.co/FakeRockert543/gemma-4-31b-it-MLX-8bit) | [62.5 GB](https://huggingface.co/FakeRockert543/gemma-4-31b-it-MLX-bf16) | — |
 
 ## Validation Results
 
@@ -175,7 +175,7 @@ cp mlx_gemma4/mlx_vlm_patches/models/gemma4/language.py \
 ```python
 from mlx_vlm import load, generate
 
-model, processor = load("FakeRockert543/gemma-4-E4B-it-MLX-4bit")
+model, processor = load("FakeRockert543/gemma-4-e4b-it-MLX-4bit")
 tokenizer = processor.tokenizer
 
 messages = [{"role": "user", "content": [
