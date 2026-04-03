@@ -47,12 +47,14 @@ Only quantize the large `nn.Linear` and `SwitchLinear` (MoE expert) layers in th
 
 ## Available Models
 
+Download from 🤗 HuggingFace:
+
 | Model | 4-bit | 8-bit | bf16 | Audio |
 |---|---|---|---|---|
-| **E2B** (2.3B params) | 7.6 GB | 8.5 GB | 10.2 GB | ✅ |
-| **E4B** (4.5B params) | 10.3 GB | 12.3 GB | 16.0 GB | ✅ |
-| **26B-A4B** (26B MoE) | 16.4 GB | 28.6 GB | 51.6 GB | — |
-| **31B** (31B dense) | 20.4 GB | 35.1 GB | 62.5 GB | — |
+| **E2B** (2.3B params) | [7.6 GB](https://huggingface.co/FakeRockert543/gemma4-e2b-mlx-4bit) | [8.5 GB](https://huggingface.co/FakeRockert543/gemma4-e2b-mlx-8bit) | [10.2 GB](https://huggingface.co/FakeRockert543/gemma4-e2b-mlx-bf16) | ✅ |
+| **E4B** (4.5B params) | [10.3 GB](https://huggingface.co/FakeRockert543/gemma4-e4b-mlx-4bit) | [12.3 GB](https://huggingface.co/FakeRockert543/gemma4-e4b-mlx-8bit) | [16.0 GB](https://huggingface.co/FakeRockert543/gemma4-e4b-mlx-bf16) | ✅ |
+| **26B-A4B** (26B MoE) | [16.4 GB](https://huggingface.co/FakeRockert543/gemma4-26b-a4b-mlx-4bit) | [28.6 GB](https://huggingface.co/FakeRockert543/gemma4-26b-a4b-mlx-8bit) | [51.6 GB](https://huggingface.co/FakeRockert543/gemma4-26b-a4b-mlx-bf16) | — |
+| **31B** (31B dense) | [20.4 GB](https://huggingface.co/FakeRockert543/gemma4-31b-mlx-4bit) | [35.1 GB](https://huggingface.co/FakeRockert543/gemma4-31b-mlx-8bit) | [62.5 GB](https://huggingface.co/FakeRockert543/gemma4-31b-mlx-bf16) | — |
 
 ## Validation Results
 
