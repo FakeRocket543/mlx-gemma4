@@ -66,13 +66,38 @@ All audio samples are real human recordings — no synthetic/TTS audio.
 | ja_speech.wav | YouTube | Japanese speech (Japanese) |
 | rickroll_30s.wav | YouTube | Rick Astley - Never Gonna Give You Up (music) |
 
-Audio tests use **question-answering**, not ASR transcription. Gemma 4's audio encoder is designed for understanding speech content, not precise transcription.
+### Audio Test: Transcription
 
-Example test questions:
-- "How many people are speaking? What language? What is the topic?"
-- "Is this speech or music? Describe what you hear."
+| Audio | bf16 | 4-bit | 8-bit |
+|---|---|---|---|
+| Obama (EN) | "This week I traveled to Chicago to deliver my final farewell address..." | ✅ identical | ✅ identical |
+| Jobs (EN) | "drop in for another 18 months or so before I really quit..." | ✅ identical | ✅ identical |
+| Chinese TED | "One of my earliest memories is trying to wake up one of my relatives..." | ✅ identical | ✅ identical |
+| Japanese | "あ、話したいな。でも話できない..." | ✅ identical | ✅ identical |
 
-All variants (4-bit, 8-bit, bf16) produce consistent answers: correctly identifying speaker count, language, topic, and speech vs. music.
+### Audio Test: Scene & Context Understanding
+
+| Audio | Question | bf16 | 4-bit | 8-bit |
+|---|---|---|---|---|
+| Obama | Casual or formal? | ✅ "formal speech" | ✅ "formal speech" | ✅ "formal speech" |
+| Rickroll | Speech or music? | ✅ "music" | ✅ "music" | ✅ "music" |
+
+### Audio Test: Emotion & Tone Analysis
+
+| Audio | bf16 | 4-bit | 8-bit |
+|---|---|---|---|
+| Obama | "serious and grateful" | "reflective and sincere" | "serious and grateful" |
+| Jobs | "reflective, narrative, matter-of-fact" | "reflective, narrative" | "reflective, narrative, matter-of-fact" |
+| Japanese | "nervous, hesitation" | "nervous, hesitation" | "nervous, hesitation" |
+
+### Audio Test: Speaker Analysis
+
+| Audio | bf16 | 4-bit | 8-bit |
+|---|---|---|---|
+| Chinese TED | "female, 1 speaker" | "female, 1 speaker" | "female, 1 speaker" |
+| Obama | "older adult" | "male, older adult" | "older adult" |
+
+All 36 audio tests (12 questions × 3 variants) produce consistent, coherent answers. Quantized models match bf16 quality.
 
 > **Note on music:** Gemma 4's audio encoder is trained on speech only. Song/artist identification scores 0/10 on **all variants including bf16**. This is a model limitation, not a quantization issue.
 

@@ -1,0 +1,296 @@
+{
+  "gemma-4-E4B-it": [
+    {
+      "category": "transcription",
+      "desc": "Obama farewell (EN)",
+      "question": "Transcribe this speech word by word.",
+      "answer": "This week I traveled to Chicago to deliver my final farewell address to the nation. It was an opportunity to say thank you, whether we've seen eye-to-eye or rarely agreed at all. My conversations with you, the American people in living rooms and schools, at farms and on factory floors, at diners and on distant military outposts. All these conversations are what have kept me honest",
+      "time": 2.7,
+      "ok": true
+    },
+    {
+      "category": "transcription",
+      "desc": "Steve Jobs (EN)",
+      "question": "Transcribe this speech word by word.",
+      "answer": "drop in for another 18 months or so before I really quit. So why did I drop out? It started before I was born. My biological mother was a young, unwed graduate student and she decided to put me up for adoption. She felt very strongly that I should be adopted by college graduates, so everything was all set for me to be adopted at birth by a lawyer and his wife. Except that when I popped out, they decided at the last minute",
+      "time": 2.9,
+      "ok": true
+    },
+    {
+      "category": "transcription",
+      "desc": "Chinese TED (ZH)",
+      "question": "Transcribe this speech in the original language.",
+      "answer": "One of my earliest memories is trying to wake up one of my relatives and not being able to. And I was just a little kid so I didn't really understand why, but as I got older I realized we had drug addiction in my family including like cocaine addiction. And I've been thinking about it a lot lately, partly because it's now exactly 100 years since drugs were first banned in the United States and Britain, and we then imposed that on the rest of the world. It's a century since we made this really fa",
+      "time": 3.4,
+      "ok": true
+    },
+    {
+      "category": "transcription",
+      "desc": "Japanese speech (JA)",
+      "question": "Transcribe this speech in the original language.",
+      "answer": "あ 、 話したい な 。 で も 話 でき ない 。 怖 を かけよう と し て も 私 は 去年の 9 月 から 日本 で 留学 し て い ます 。 外国人 もけ の 日本語 の 授業 を 受け て い て 、 私たち は 普通 の 大学 生 と 違っ て ルーゴク 別格 性 と 呼ば れ て い ます 。 教室 の ビル も 違っ て いる の で 、 日本 人 と 会う チャンス は 食堂 や クラブ 活動 しか あり ませ ん 。 食堂 で 声 を かけ たり 、 クラブ 活動 に",
+      "time": 3.7,
+      "ok": true
+    },
+    {
+      "category": "scene",
+      "desc": "Obama farewell (EN)",
+      "question": "Is this a casual conversation or a formal speech? What kind of event is this?",
+      "answer": "This appears to be **a formal speech**.\n\nHere's why:\n\n*   **Formal language and tone:** The speaker uses elevated vocabulary (\"farewell address,\" \"tradition of presidents before me\") and a structured, reflective style.\n*   **Formal setting:** The mention of delivering a \"final farewell address to the nation\" indicates an official, public event.\n*   **Purpose:** The speech is intended to thank the American people and reflect on interactions with a broad audience.\n*   **Structure:** It follows a c",
+      "time": 4.0,
+      "ok": true
+    },
+    {
+      "category": "scene",
+      "desc": "Steve Jobs (EN)",
+      "question": "Describe the setting. Is this indoors or outdoors? Is there an audience?",
+      "answer": "The scene is not described in detail, but it seems to be a personal narrative. There's no indication of an audience or specific setting, so it could take place anywhere in the world.",
+      "time": 1.6,
+      "ok": true
+    },
+    {
+      "category": "scene",
+      "desc": "Rickroll (music)",
+      "question": "Is this speech or music? Is it a live performance or a studio recording?",
+      "answer": "Based on the audio provided, this is **music**.\n\nIt has a clear musical structure with instrumentation and vocals. It sounds like it could be either a studio recording or potentially a live performance, but the quality suggests that it is likely from a **studio recording**.",
+      "time": 1.9,
+      "ok": true
+    },
+    {
+      "category": "emotion",
+      "desc": "Obama farewell (EN)",
+      "question": "What is the speaker's emotional tone? Is the speaker happy, sad, serious, or passionate?",
+      "answer": "The speaker's emotional tone is **serious** and **grateful**. \n\nHere's a breakdown of why:\n*   **Serious:** The context—delivering a \"final farewell address\" after serving as president and reflecting on the weight of his office suggests gravity. The tone is reflective, acknowledging a significant life event and the responsibilities he held.\n*   **Grateful:** The phrase \"It was an opportunity to say thank you\" indicates a sense of appreciation for the interactions with the American people.\n*   **",
+      "time": 4.2,
+      "ok": true
+    },
+    {
+      "category": "emotion",
+      "desc": "Steve Jobs (EN)",
+      "question": "Describe the speaker's mood and delivery style.",
+      "answer": "The speaker has a **reflective, narrative, and somewhat matter-of-fact** mood.\n\nTheir delivery style is:\n\n*   **Conversational and storytelling:** They are recounting a personal history, speaking in a narrative manner as if telling an anecdote.\n*   **Measured and deliberate:** The pace is steady, suggesting they are carefully recounting events rather than being highly emotional.\n*   **Informative:** They are providing background information about their life story, detailing the circumstances of ",
+      "time": 4.2,
+      "ok": true
+    },
+    {
+      "category": "emotion",
+      "desc": "Japanese speech (JA)",
+      "question": "What is the speaker's emotional tone? Confident, nervous, calm, or excited?",
+      "answer": "The speaker's emotional tone is **nervous**.\n\nHere's why:\n\n*   **Hesitation and Uncertainty:** The opening phrase \"あー、話したいな\" (Ah, I want to talk) suggests a desire but also hesitation.\n*   **Self-consciousness:** The speaker is describing their situation and the challenges they face, which indicates a degree of anxiety about how to approach others.\n*   **Difficulty in initiating conversation:** The speaker is struggling with the idea of how to connect (\"どうしよう\" - \"What should I do?\").\n*   **Vulne",
+      "time": 4.1,
+      "ok": true
+    },
+    {
+      "category": "speaker",
+      "desc": "Obama farewell (EN)",
+      "question": "Is the speaker male or female? Estimate the speaker's age range.",
+      "answer": "Based on the provided text, it is not possible to determine whether the speaker's gender. However, I can estimate that they are likely an older adult based on their vocabulary and the context of a farewell address.",
+      "time": 1.7,
+      "ok": true
+    },
+    {
+      "category": "speaker",
+      "desc": "Chinese TED (ZH)",
+      "question": "Is the speaker male or female? How many people are speaking?",
+      "answer": "The speaker is likely **female**.\n\nThere is only **one** person speaking.",
+      "time": 1.1,
+      "ok": true
+    }
+  ],
+  "gemma4-e4b-mlx-4bit": [
+    {
+      "category": "transcription",
+      "desc": "Obama farewell (EN)",
+      "question": "Transcribe this speech word by word.",
+      "answer": "This week I traveled to Chicago to deliver my final farewell address to the nation. Following in the tradition of presidents before me, it was an opportunity to say thank you whether we've seen eye-to-eye or rarely agreed at all. My conversations with you, the American people in living rooms and schools, at farms and on factory floors, at diners and on distant military outposts. All these conversations are what have kept me honest",
+      "time": 1.9,
+      "ok": true
+    },
+    {
+      "category": "transcription",
+      "desc": "Steve Jobs (EN)",
+      "question": "Transcribe this speech word by word.",
+      "answer": "drop in for another 18 months or so before I really quit. So why did I drop out? It started before I was born. My biological mother was a young, unwed graduate student and she decided to put me up for adoption. She felt very strongly that I should be adopted by college graduates so everything was all set for me to be adopted at birth by a lawyer and his wife. Except that when I popped out, they decided at the last minute",
+      "time": 1.8,
+      "ok": true
+    },
+    {
+      "category": "transcription",
+      "desc": "Chinese TED (ZH)",
+      "question": "Transcribe this speech in the original language.",
+      "answer": "One of my earliest memories is trying to wake up one of my relatives and not being able to. And I was just a little kid so I didn't really understand why, but as I got older I realized we had drug addiction in my family including like cocaine addiction. And I've been thinking about it a lot lately, partly because it's now exactly 100 years since drugs were first banned in the United States and Britain, and we then imposed that on the rest of the world. It's a century since we made this really fa",
+      "time": 2.0,
+      "ok": true
+    },
+    {
+      "category": "transcription",
+      "desc": "Japanese speech (JA)",
+      "question": "Transcribe this speech in the original language.",
+      "answer": "あ 、 話したい な 。 で も 話 でき ない 。 声 を かけよう と し て も 私 は 去年 の 9 月 から 日本 で 留学 し て い ます 。 外国人 もけの日本語 の 授業 を 受け て い て 、 私たち は 普通 の 大学 生 と 違っ て ルーゴ 別格 性 って 呼ば れ て い ます 。 教室 の ビル も 違っ て いる の で 、 日本 人 と 会う チャンス は 食堂 や クラブ 活動 しか あり ませ ん 。 食堂 で 声 を かけ たり 、 クラブ 活動",
+      "time": 2.2,
+      "ok": true
+    },
+    {
+      "category": "scene",
+      "desc": "Obama farewell (EN)",
+      "question": "Is this a casual conversation or a formal speech? What kind of event is this?",
+      "answer": "Based on the provided text, it sounds like a **formal speech**.\n\nHere's why:\n\n*   **Formal tone and language:** The speaker uses elevated, rhetorical phrasing (\"final farewell address to the nation,\" \"following in the tradition of presidents before me\").\n*   **Purpose:** The speaker is delivering a \"final farewell address,\" which implies an important, public event.\n*   **Context:** The speaker is addressing the nation in a significant capacity (a presidential role).\n*   **Content:** The speech i",
+      "time": 2.3,
+      "ok": true
+    },
+    {
+      "category": "scene",
+      "desc": "Steve Jobs (EN)",
+      "question": "Describe the setting. Is this indoors or outdoors? Is there an audience?",
+      "answer": "The provided text does not contain any information about a setting, whether indoors or outdoors. It is an excerpt from a narrative that does not describe the physical environment in which events are taking place.",
+      "time": 1.2,
+      "ok": true
+    },
+    {
+      "category": "scene",
+      "desc": "Rickroll (music)",
+      "question": "Is this speech or music? Is it a live performance or a studio recording?",
+      "answer": "Based on the audio, this is **music**.\n\nIt sounds like a song with vocals and instrumentation. It's difficult to tell if it is a live performance or a studio recording just from the audio clip, but given that there are no obvious signs of an audience or a live setting. It could be either, but it has the quality of a studio recording.",
+      "time": 1.6,
+      "ok": true
+    },
+    {
+      "category": "emotion",
+      "desc": "Obama farewell (EN)",
+      "question": "What is the speaker's emotional tone? Is the speaker happy, sad, serious, or passionate?",
+      "answer": "The speaker's tone is **reflective and sincere**.\n\nWhile there isn't a strong sense of overt happiness or sadness, the speaker conveys a deep **earnestness** and a touch of nostalgia. The tone is serious, as the speaker reflects on their experiences while expressing gratitude for the conversations and connections they had with people. The mention of a significant life event (the farewell address) suggests the weight and importance of their experiences, but it's not a purely celebratory or mournf",
+      "time": 2.2,
+      "ok": true
+    },
+    {
+      "category": "emotion",
+      "desc": "Steve Jobs (EN)",
+      "question": "Describe the speaker's mood and delivery style.",
+      "answer": "The speaker has a **reflective, narrative** tone.\n\nTheir delivery is:\n\n*   **Conversational and matter-of-fact:** They are recounting a personal story, sharing details about their life circumstances without much dramatic flair.\n*   **Measured and deliberate:** The pace is steady, suggesting they are carefully recounting a significant life event.\n*   **Informative:** The primary goal is to convey information about their past, rather than expressing strong emotion.\n\nOverall, the tone suggests they",
+      "time": 2.0,
+      "ok": true
+    },
+    {
+      "category": "emotion",
+      "desc": "Japanese speech (JA)",
+      "question": "What is the speaker's emotional tone? Confident, nervous, calm, or excited?",
+      "answer": "The speaker's tone is **nervous**.\n\nHere's why:\n\n*   **Hesitation and uncertainty:** The opening phrase \"あー、話したいな\" (Ah, I want to talk) suggests a desire but also some hesitation.\n*   **Self-consciousness:** The speaker is describing their situation and the difficulties they face in initiating contact, which indicates a degree of anxiety.\n*   **Difficulty expressing themselves:** The speaker is struggling to find the right words and feels a sense of difficulty in initiating conversation (\"I want",
+      "time": 2.4,
+      "ok": true
+    },
+    {
+      "category": "speaker",
+      "desc": "Obama farewell (EN)",
+      "question": "Is the speaker male or female? Estimate the speaker's age range.",
+      "answer": "Based on your description, I would estimate that the speaker is male and in their older adult years.",
+      "time": 1.0,
+      "ok": true
+    },
+    {
+      "category": "speaker",
+      "desc": "Chinese TED (ZH)",
+      "question": "Is the speaker male or female? How many people are speaking?",
+      "answer": "The speaker is likely **female**.\n\nThere is only **one** person speaking.",
+      "time": 1.0,
+      "ok": true
+    }
+  ],
+  "gemma4-e4b-mlx-8bit": [
+    {
+      "category": "transcription",
+      "desc": "Obama farewell (EN)",
+      "question": "Transcribe this speech word by word.",
+      "answer": "This week I traveled to Chicago to deliver my final farewell address to the nation. It was an opportunity to say thank you, whether we've seen eye-to-eye or rarely agreed at all. My conversations with you, the American people in living rooms and schools, at farms and on factory floors, at diners and on distant military outposts. All these conversations are what have kept me honest",
+      "time": 2.1,
+      "ok": true
+    },
+    {
+      "category": "transcription",
+      "desc": "Steve Jobs (EN)",
+      "question": "Transcribe this speech word by word.",
+      "answer": "drop in for another 18 months or so before I really quit. So why did I drop out? It started before I was born. My biological mother was a young, unwed graduate student and she decided to put me up for adoption. She felt very strongly that I should be adopted by college graduates, so everything was all set for me to be adopted at birth by a lawyer and his wife. Except that when I popped out, they decided at the last minute",
+      "time": 2.2,
+      "ok": true
+    },
+    {
+      "category": "transcription",
+      "desc": "Chinese TED (ZH)",
+      "question": "Transcribe this speech in the original language.",
+      "answer": "One of my earliest memories is trying to wake up one of my relatives and not being able to. And I was just a little kid so I didn't really understand why, but as I got older, I realized we had drug addiction in my family including like cocaine addiction. And I've been thinking about it a lot lately, partly because it's now exactly 100 years since drugs were first banned in the United States and Britain, and we then imposed that on the rest of the world. It's a century since we made this really f",
+      "time": 2.6,
+      "ok": true
+    },
+    {
+      "category": "transcription",
+      "desc": "Japanese speech (JA)",
+      "question": "Transcribe this speech in the original language.",
+      "answer": "あ 、 話したい な 。 で も 話 でき ない 。 怖 を かけよう と し て も 私 は 去年の 9 月 から 日本 で 留学 し て い ます 。 外国人 もけ の 日本語 の 授業 を 受け て い て 、 私たち は 普通 の 大学生 と 違っ て ルーゴ 別格 性 と 呼ば れ て い ます 。 教室 の ビル も 違っ て いる の で 、 日本 人 と 会う チャンス は 食堂 や クラブ 活動 しか あり ませ ん 。 食堂 で 声 を かけ たり 、 クラブ 活動 に",
+      "time": 2.8,
+      "ok": true
+    },
+    {
+      "category": "scene",
+      "desc": "Obama farewell (EN)",
+      "question": "Is this a casual conversation or a formal speech? What kind of event is this?",
+      "answer": "This appears to be **a formal speech**.\n\nHere's why:\n\n*   **Formal Tone:** The language is elevated and structured, using phrases like \"final farewell address to the nation,\" which suggests a significant public event.\n*   **Purpose:** The speaker is addressing \"the nation\" and expressing gratitude for interactions with a broad audience (\"American people,\" mentioning various settings like \"living rooms in schools, at farms and on factory floors\").\n*   **Structure:** The speaker is delivering a \"f",
+      "time": 3.5,
+      "ok": true
+    },
+    {
+      "category": "scene",
+      "desc": "Steve Jobs (EN)",
+      "question": "Describe the setting. Is this indoors or outdoors? Is there an audience?",
+      "answer": "The scene appears to be taking place in a **private, intimate setting**, likely within the speaker's mind or during an interview. There is no visible audience, as it feels like a **monologue**. The setting seems to be an internal narrative or conversation.",
+      "time": 2.0,
+      "ok": true
+    },
+    {
+      "category": "scene",
+      "desc": "Rickroll (music)",
+      "question": "Is this speech or music? Is it a live performance or a studio recording?",
+      "answer": "Based on the audio, this is **music**.\n\nIt has a clear musical structure with instrumentation (drums and bass) and vocals. It sounds like it could be either a studio recording or potentially a live performance, but the production quality suggests it's likely a **studio recording**. The vocals are quite polished and consistent, which is typical of studio production.",
+      "time": 2.1,
+      "ok": true
+    },
+    {
+      "category": "emotion",
+      "desc": "Obama farewell (EN)",
+      "question": "What is the speaker's emotional tone? Is the speaker happy, sad, serious, or passionate?",
+      "answer": "The speaker's emotional tone is **serious** and **grateful**. \n\nHere's a breakdown of why:\n*   **Serious:** The context—delivering a \"final farewell address to the nation\" after serving as president and reflecting on his time in office suggests a solemn occasion. The gravity of the situation lends itself to a serious tone, as he is addressing his country and reflecting on significant events.\n*   **Grateful:** The act of thanking the American people for their support, regardless of whether they a",
+      "time": 3.3,
+      "ok": true
+    },
+    {
+      "category": "emotion",
+      "desc": "Steve Jobs (EN)",
+      "question": "Describe the speaker's mood and delivery style.",
+      "answer": "The speaker has a **reflective, narrative, and somewhat matter-of-fact** mood. They are recounting personal history with a tone that is measured and thoughtful, rather than overly emotional or dramatic.\n\nTheir delivery style is **conversational and storytelling**. They are speaking in a narrative manner, like someone recounting past events. The pace is steady and deliberate, allowing the listener to follow a complex story about their early life circumstances. There's an air of introspection as t",
+      "time": 2.8,
+      "ok": true
+    },
+    {
+      "category": "emotion",
+      "desc": "Japanese speech (JA)",
+      "question": "What is the speaker's emotional tone? Confident, nervous, calm, or excited?",
+      "answer": "The speaker's emotional tone seems to be **nervous**.\n\nThey express a desire to talk but also hesitation and uncertainty about how to approach the situation. The phrasing \"I want to, but I don't know what to say\" suggests a degree of anxiety about initiating conversation.",
+      "time": 1.9,
+      "ok": true
+    },
+    {
+      "category": "speaker",
+      "desc": "Obama farewell (EN)",
+      "question": "Is the speaker male or female? Estimate the speaker's age range.",
+      "answer": "Based on the provided text, it is not possible to determine whether the speaker is male or female. The language used does not provide any gender-specific clues, and there are no vocal characteristics in the text to indicate either.\n\nAs for age range estimation based on this short excerpt, I cannot provide a definitive answer as there are no indicators of age. However, the speaker's tone and vocabulary suggest that they could be an adult who is likely in a position of authority.",
+      "time": 2.5,
+      "ok": true
+    },
+    {
+      "category": "speaker",
+      "desc": "Chinese TED (ZH)",
+      "question": "Is the speaker male or female? How many people are speaking?",
+      "answer": "The speaker is likely **female**.\n\nThere is only **one** person speaking.",
+      "time": 1.3,
+      "ok": true
+    }
+  ]
+}
