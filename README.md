@@ -2,7 +2,7 @@
 
 > Tested on Apple M4 Max 128GB, 2026-04-03
 > Framework: mlx-vlm (+ 4 bug fixes)
-> Source: https://git.lcn.tw:33333/felix/mlx_gemma4.git
+> Source: https://github.com/anthropic-felix/mlx-gemma4
 
 Working MLX quantized weights for the full Google Gemma 4 family on Apple Silicon.
 
@@ -161,7 +161,7 @@ Measured on E4B with 30 images:
 pip install git+https://github.com/Blaizzy/mlx-vlm.git@main
 
 # Apply fix
-git clone https://git.lcn.tw:33333/felix/mlx_gemma4.git
+git clone https://github.com/FakeRocket543/mlx-gemma4.git
 cp mlx_gemma4/mlx_vlm_patches/models/gemma4/language.py \
    $(python -c "import mlx_vlm; print(mlx_vlm.__path__[0])")/models/gemma4/
 ```
@@ -173,7 +173,7 @@ cp mlx_gemma4/mlx_vlm_patches/models/gemma4/language.py \
 ```python
 from mlx_vlm import load, generate
 
-model, processor = load("flcl/gemma-4-E4B-it-MLX-4bit")
+model, processor = load("FakeRockert543/gemma-4-E4B-it-MLX-4bit")
 tokenizer = processor.tokenizer
 
 messages = [{"role": "user", "content": [
@@ -211,7 +211,7 @@ print(out.text)
 ## Convert From Source
 
 ```bash
-git clone https://git.lcn.tw:33333/felix/mlx_gemma4.git
+git clone https://github.com/FakeRocket543/mlx-gemma4.git
 cd mlx_gemma4
 
 # Single model
